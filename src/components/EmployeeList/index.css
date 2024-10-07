@@ -1,0 +1,42 @@
+.employeeListUicontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.createAndSearchcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 10px;
+}
+
+.totalCount {
+  font-size: 20px;
+}
+
+.searchContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.searchLabel {
+  font-size: 20px;
+
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+
+.searchInput {
+  padding: 6px 4px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.edit-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
